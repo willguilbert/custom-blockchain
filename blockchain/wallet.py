@@ -1,5 +1,5 @@
-from tp2.crypto import PublicKey
-from tp2.blockchain import Blockchain
+from blockchain.crypto import PublicKey
+from blockchain.blockchain import Blockchain
 
 
 def get_balance(blockchain: Blockchain, pk: PublicKey) -> float:

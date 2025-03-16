@@ -1,7 +1,7 @@
 import hashlib
 
-from tp2.transaction import Transaction
-from tp2.crypto import PublicKey
+from blockchain.transaction import Transaction
+from blockchain.crypto import PublicKey
 
 
 class Block:

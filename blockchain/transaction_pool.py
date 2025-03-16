@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from tp2.transaction import Transaction
+from blockchain.transaction import Transaction
 
 
 class TransactionPool:

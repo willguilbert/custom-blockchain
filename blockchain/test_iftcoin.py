@@ -2,12 +2,12 @@ import secrets
 
 from ecdsa import SigningKey, VerifyingKey
 
-from tp2.block import Block
-from tp2.blockchain import Blockchain
-from tp2.block_handler import BlockHandler
-from tp2.transaction import Transaction
-from tp2.crypto import KeyPairGenerator
-from tp2.wallet import get_balance
+from blockchain.block import Block
+from blockchain.blockchain import Blockchain
+from blockchain.block_handler import BlockHandler
+from blockchain.transaction import Transaction
+from blockchain.crypto import KeyPairGenerator
+from blockchain.wallet import get_balance
 
 
 class TestIFTCoin:

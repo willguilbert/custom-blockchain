@@ -1,10 +1,10 @@
-from tp2.blockchain import Blockchain
-from tp2.block import Block
-from tp2.crypto import PublicKey
-from tp2.transaction import Transaction
-from tp2.transaction_handler import TransactionHandler
-from tp2.transaction_pool import TransactionPool
-from tp2.utxo_pool import UTXOPool
+from blockchain.blockchain import Blockchain
+from blockchain.block import Block
+from blockchain.crypto import PublicKey
+from blockchain.transaction import Transaction
+from blockchain.transaction_handler import TransactionHandler
+from blockchain.transaction_pool import TransactionPool
+from blockchain.utxo_pool import UTXOPool
 
 
 class BlockHandler:

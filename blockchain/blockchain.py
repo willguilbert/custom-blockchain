@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from tp2.block import Block
-from tp2.transaction import Transaction
-from tp2.transaction_handler import TransactionHandler
-from tp2.transaction_pool import TransactionPool
-from tp2.utxo import UTXO
-from tp2.utxo_pool import UTXOPool
+from blockchain.block import Block
+from blockchain.transaction import Transaction
+from blockchain.transaction_handler import TransactionHandler
+from blockchain.transaction_pool import TransactionPool
+from blockchain.utxo import UTXO
+from blockchain.utxo_pool import UTXOPool
 
 
 class Blockchain:

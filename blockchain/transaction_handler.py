@@ -1,7 +1,7 @@
-from tp2.crypto import verify_signature
-from tp2.transaction import Transaction
-from tp2.utxo import UTXO
-from tp2.utxo_pool import UTXOPool
+from blockchain.crypto import verify_signature
+from blockchain.transaction import Transaction
+from blockchain.utxo import UTXO
+from blockchain.utxo_pool import UTXOPool
 
 
 class TransactionHandler:

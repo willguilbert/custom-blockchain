@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from tp2.utxo import UTXO
-from tp2.transaction import Transaction
+from blockchain.utxo import UTXO
+from blockchain.transaction import Transaction
 
 
 class UTXOPool:

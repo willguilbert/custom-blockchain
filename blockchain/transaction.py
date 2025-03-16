@@ -3,7 +3,7 @@ from __future__ import annotations
 import hashlib
 import struct
 
-from tp2.crypto import PrivateKey, PublicKey
+from blockchain.crypto import PrivateKey, PublicKey
 
 
 class Transaction:
