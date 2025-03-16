@@ -45,15 +45,19 @@ class Blockchain:
     def get_max_height_block(self) -> Block:
         """Renvoie le bloc de hauteur maximale."""
         # TODO: Votre code ici
+        return self.max_height_node.block
+                
 
     def get_max_height_utxo_pool(self) -> UTXOPool:
         """Renvoie le pool utxo pour miner un nouveau bloc
         au-dessus du bloc de hauteur maximale."""
         # TODO: Votre code ici
+        return self.max_height_node.utxo_pool
 
     def add_transaction(self, tx: Transaction) -> None:
         """Ajoute une transaction au memory pool."""
         # TODO: Votre code ici
+        self.tx_pool.add_transaction(tx)
 
     def add_block(self, block: Block) -> bool:
         """
