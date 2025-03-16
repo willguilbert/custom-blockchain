@@ -1,0 +1,11 @@
+.vscode/
+.idea/
+.venv/
+.env/
+__init__.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.DS_Store
+TP2.pdf
+correction.txt
