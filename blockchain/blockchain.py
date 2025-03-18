@@ -46,7 +46,6 @@ class Blockchain:
         """Renvoie le bloc de hauteur maximale."""
         # TODO: Votre code ici
         return self.max_height_node.block
-                
 
     def get_max_height_utxo_pool(self) -> UTXOPool:
         """Renvoie le pool utxo pour miner un nouveau bloc
@@ -101,6 +100,9 @@ class Blockchain:
         handler: TransactionHandler = TransactionHandler(parent_block_node.utxo_pool)
 
         valid_txs: list[Transaction] = handler.handle_transactions(txs)
+        print(f"[add_block] Nb de tsx: {len(txs)}")
+        print(f"[add_block] Nb de tsx valides: {len(valid_txs)}")
+        print("BREAK ==========")
 
         if len(valid_txs) != len(txs):
             return False
