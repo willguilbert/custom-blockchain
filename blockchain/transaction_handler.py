@@ -1,4 +1,3 @@
-from mailbox import Message
 
 from blockchain.crypto import verify_signature
 from blockchain.transaction import Transaction
